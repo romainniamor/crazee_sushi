@@ -3,8 +3,8 @@ const EMPTY = [];
 const SMALL = [
   {
     id: "1",
-    imageSource: "/images/burger1.png",
-    title: "Burger 1",
+    imageSource: "/images/menu1.png",
+    title: "T398",
     price: 5.297,
     quantity: 0,
     isAvailable: true,
@@ -12,57 +12,9 @@ const SMALL = [
   },
   {
     id: "2",
-    imageSource: "/images/burger2.png",
-    title: "Burger 2",
+    imageSource: "/images/menu2.png",
+    title: "C236",
     price: 7.556,
-    quantity: 0,
-    isAvailable: true,
-    isAdvertised: false,
-  },
-];
-
-const MEDIUM = [
-  {
-    id: "1",
-    imageSource: "/images/burger-bacon-egg.png",
-    title: "Burger Smoke BBQ",
-    price: 5.598,
-    quantity: 0,
-    isAvailable: true,
-    isAdvertised: false,
-  },
-  {
-    id: "2",
-    imageSource: "/images/burger-vegan.png",
-    title: "Vegan Burger",
-    price: 5.4985,
-    quantity: 0,
-    isAvailable: true,
-    isAdvertised: false,
-  },
-  {
-    id: "3",
-    imageSource: "/images/burger3.png",
-    title: "Burger poulet",
-    price: 5.367,
-    quantity: 0,
-    isAvailable: true,
-    isAdvertised: false,
-  },
-  {
-    id: "4",
-    imageSource: "/images/drink1.png",
-    title: "Coke 25cl",
-    price: 3.568,
-    quantity: 0,
-    isAvailable: true,
-    isAdvertised: false,
-  },
-  {
-    id: "5",
-    imageSource: "/images/drink2.png",
-    title: "Pepsi 25cl",
-    price: 3.487,
     quantity: 0,
     isAvailable: true,
     isAdvertised: false,
@@ -72,8 +24,8 @@ const MEDIUM = [
 const LARGE = [
   {
     id: "1",
-    imageSource: "/images/burger4.png",
-    title: "Burger Smoke BBQ",
+    imageSource: "/images/menu1.png",
+    title: "B555",
     price: 5.598,
     quantity: 0,
     isAvailable: true,
@@ -81,8 +33,8 @@ const LARGE = [
   },
   {
     id: "2",
-    imageSource: "/images/burger7.png",
-    title: "Crazee Burger",
+    imageSource: "/images/menu7.png",
+    title: "B354",
     price: 12.568,
     quantity: 0,
     isAvailable: true,
@@ -91,8 +43,8 @@ const LARGE = [
 
   {
     id: "3",
-    imageSource: "/images/burger5.png",
-    title: "Double Cheese Burger",
+    imageSource: "/images/menu5.png",
+    title: "C345",
     price: 4.167,
     quantity: 0,
     isAvailable: true,
@@ -100,8 +52,8 @@ const LARGE = [
   },
   {
     id: "4",
-    imageSource: "/images/burger9.png",
-    title: "Vegan Burger",
+    imageSource: "/images/menu9.png",
+    title: "V156",
     price: 5.4985,
     quantity: 0,
     isAvailable: false,
@@ -110,8 +62,8 @@ const LARGE = [
 
   {
     id: "5",
-    imageSource: "/images/burger3.png",
-    title: "Fishee Burger",
+    imageSource: "/images/menu3.png",
+    title: "G345",
     price: 4.487,
     quantity: 0,
     isAvailable: true,
@@ -119,8 +71,8 @@ const LARGE = [
   },
   {
     id: "6",
-    imageSource: "/images/fries3.png",
-    title: "French Fries",
+    imageSource: "/images/menu13.png",
+    title: "M354",
     price: 3.356,
     quantity: 0,
     isAvailable: true,
@@ -128,8 +80,8 @@ const LARGE = [
   },
   {
     id: "7",
-    imageSource: "/images/burger6.png",
-    title: "South Burger",
+    imageSource: "/images/menu6.png",
+    title: "B187",
     price: 4.567,
     quantity: 0,
     isAvailable: true,
@@ -137,8 +89,8 @@ const LARGE = [
   },
   {
     id: "8",
-    imageSource: "/images/burger12.png",
-    title: "Chicken Burger",
+    imageSource: "/images/menu12.png",
+    title: "J765",
     price: 4.1678,
     quantity: 0,
     isAvailable: true,
@@ -146,8 +98,8 @@ const LARGE = [
   },
   {
     id: "9",
-    imageSource: "/images/burger11.png",
-    title: "Mexican Burger",
+    imageSource: "/images/menu11.png",
+    title: "B143",
     price: 3.7,
     quantity: 0,
     isAvailable: true,
@@ -155,8 +107,26 @@ const LARGE = [
   },
   {
     id: "10",
-    imageSource: "/images/burger2.png",
-    title: "Classic",
+    imageSource: "/images/menu2.png",
+    title: "C45T",
+    price: 3.378,
+    quantity: 0,
+    isAvailable: true,
+    isAdvertised: true,
+  },
+  {
+    id: "11",
+    imageSource: "/images/menu16.png",
+    title: "G345",
+    price: 3.378,
+    quantity: 0,
+    isAvailable: true,
+    isAdvertised: true,
+  },
+  {
+    id: "12",
+    imageSource: "/images/menu15.png",
+    title: "C190",
     price: 3.378,
     quantity: 0,
     isAvailable: true,
@@ -167,6 +137,5 @@ const LARGE = [
 export const fakeMenu = {
   EMPTY,
   SMALL,
-  MEDIUM,
   LARGE,
 };
