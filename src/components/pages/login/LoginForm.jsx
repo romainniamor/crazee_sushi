@@ -15,14 +15,14 @@ export default function LoginForm() {
   const handleChange = (event) => {
     setUserName(event.target.value);
   };
-  const naviagte = useNavigate();
+  const navigate = useNavigate();
 
   //comportements
   const handleSubmit = async (event) => {
     event.preventDefault();
     const result = await authenticateUser(userName);
     setUserName("");
-    naviagte(`order/${result.username}`);
+    navigate(`order/${result.username}`);
   };
 
   //render
