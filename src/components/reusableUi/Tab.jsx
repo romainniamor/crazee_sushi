@@ -12,8 +12,9 @@ export default function Tab({ icon, label, onClick, className }) {
 }
 
 const TabStyled = styled.button`
-  height: 43px;
+  height: 45px;
   padding: 0 22px;
+  box-sizing: content-box;
 
   position: relative;
   top: 1px;
@@ -28,7 +29,8 @@ const TabStyled = styled.button`
   color: ${theme.colors.greySemiDark};
 
   background: ${theme.colors.white};
-  border: 1px 1px 2px 1px;
+  border: 1px;
+  border-bottom: 2px;
   border-color: ${theme.colors.greyLight};
   border-style: solid;
   box-shadow: ${theme.shadows.subtle};
@@ -47,6 +49,6 @@ const TabStyled = styled.button`
   }
 
   &:hover {
-    border-bottom: 1px solid ${theme.colors.white};
+    border-bottom: 2px solid transparent;
   }
 `;

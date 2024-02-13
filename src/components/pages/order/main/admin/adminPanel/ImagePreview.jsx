@@ -13,7 +13,7 @@ export default function ImagePreview({ title, imageSource }) {
 
 const ImagePreviewStyled = styled.div`
   grid-area: 1 / 1 / 4 / 2;
-  padding: 16px;
+  padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;

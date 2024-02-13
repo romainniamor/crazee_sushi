@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { theme } from "../../../../../theme";
 
 export default function Footer() {
-  return <FooterStyled>Codé avec ❤️ et React.JS</FooterStyled>;
+  return <FooterStyled>いらっしゃいませ</FooterStyled>;
 }
 
 const FooterStyled = styled.div`
@@ -12,6 +12,6 @@ const FooterStyled = styled.div`
   justify-content: center;
   align-items: center;
   font-size: ${theme.fonts.P2};
-  font-weight: ${theme.weights.bold};
+  font-weight: ${theme.weights.medium};
   color: ${theme.colors.white};
 `;

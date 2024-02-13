@@ -25,7 +25,7 @@ const LARGE = [
   {
     id: "1",
     imageSource: "/images/menu1.png",
-    title: "B555",
+    title: "Fresh Mix",
     price: 5.598,
     quantity: 0,
     isAvailable: true,
@@ -34,7 +34,7 @@ const LARGE = [
   {
     id: "2",
     imageSource: "/images/menu7.png",
-    title: "B354",
+    title: "Sushi Mix",
     price: 12.568,
     quantity: 0,
     isAvailable: true,
@@ -44,7 +44,7 @@ const LARGE = [
   {
     id: "3",
     imageSource: "/images/menu5.png",
-    title: "C345",
+    title: "California Star",
     price: 4.167,
     quantity: 0,
     isAvailable: true,
@@ -53,7 +53,7 @@ const LARGE = [
   {
     id: "4",
     imageSource: "/images/menu9.png",
-    title: "V156",
+    title: "Just Salmon",
     price: 5.4985,
     quantity: 0,
     isAvailable: false,
@@ -63,7 +63,7 @@ const LARGE = [
   {
     id: "5",
     imageSource: "/images/menu3.png",
-    title: "G345",
+    title: "Super Salmon",
     price: 4.487,
     quantity: 0,
     isAvailable: true,
@@ -72,7 +72,7 @@ const LARGE = [
   {
     id: "6",
     imageSource: "/images/menu13.png",
-    title: "M354",
+    title: "Sunrise",
     price: 3.356,
     quantity: 0,
     isAvailable: true,
@@ -80,8 +80,8 @@ const LARGE = [
   },
   {
     id: "7",
-    imageSource: "/images/menu6.png",
-    title: "B187",
+    imageSource: "/images/menu14.png",
+    title: "California Dream",
     price: 4.567,
     quantity: 0,
     isAvailable: true,
@@ -90,7 +90,7 @@ const LARGE = [
   {
     id: "8",
     imageSource: "/images/menu12.png",
-    title: "J765",
+    title: "Amateur Mix",
     price: 4.1678,
     quantity: 0,
     isAvailable: true,
@@ -99,7 +99,7 @@ const LARGE = [
   {
     id: "9",
     imageSource: "/images/menu11.png",
-    title: "B143",
+    title: "Crazee Box",
     price: 3.7,
     quantity: 0,
     isAvailable: true,
@@ -108,7 +108,7 @@ const LARGE = [
   {
     id: "10",
     imageSource: "/images/menu2.png",
-    title: "C45T",
+    title: "Sunset",
     price: 3.378,
     quantity: 0,
     isAvailable: true,
@@ -117,7 +117,7 @@ const LARGE = [
   {
     id: "11",
     imageSource: "/images/menu16.png",
-    title: "G345",
+    title: "Veggie Box",
     price: 3.378,
     quantity: 0,
     isAvailable: true,
@@ -126,7 +126,7 @@ const LARGE = [
   {
     id: "12",
     imageSource: "/images/menu15.png",
-    title: "C190",
+    title: "Tasty Box",
     price: 3.378,
     quantity: 0,
     isAvailable: true,

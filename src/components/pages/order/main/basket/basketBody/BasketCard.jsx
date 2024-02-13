@@ -114,7 +114,7 @@ const BasketCardStyled = styled.div`
       }
       .price {
         font-size: ${theme.fonts.sm};
-        font-weight: ${theme.weights.light};
+        font-weight: ${theme.weights.medium};
 
         .card-price {
           left: 0;
@@ -124,7 +124,7 @@ const BasketCardStyled = styled.div`
 
     .quantity {
       box-sizing: border-box;
-      font-weight: ${theme.weights.light};
+      font-weight: ${theme.weights.medium};
       display: flex;
       align-items: center;
       justify-content: flex-end;

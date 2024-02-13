@@ -140,10 +140,11 @@ const CardStyled = styled.div`
       height: auto;
       margin-top: 30px;
       margin-bottom: 20px;
+
       img {
         width: 100%;
         height: 100%;
-        object-fit: contain;
+        object-fit: cover;
       }
     }
 
@@ -181,7 +182,7 @@ const CardStyled = styled.div`
         text-overflow: ellipsis;
         font-size: ${theme.fonts.P3};
         color: ${theme.colors.primary};
-        font-weight: ${theme.weights.medium};
+        font-weight: ${theme.weights.semiBold};
       }
 
       .button-box {

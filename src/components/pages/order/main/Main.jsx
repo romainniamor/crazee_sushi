@@ -22,7 +22,7 @@ export default function Main() {
 const MainStyled = styled.main`
   flex: 1;
   background: ${theme.colors.background_white};
-  box-shadow: 0px 8px 20px 8px rgba(0, 0, 0, 0.2) inset;
+
   display: grid;
   grid-template-columns: 350px 1fr;
   height: calc(95vh - 100px);
@@ -31,5 +31,6 @@ const MainStyled = styled.main`
     position: relative;
     overflow-y: hidden;
     display: grid;
+    box-shadow: 0px 8px 20px 8px rgba(0, 0, 0, 0.2) inset;
   }
 `;

@@ -4,8 +4,6 @@ export const EMPTY_PRODUCT = Object.freeze({
   title: "",
   imageSource: "",
   price: "",
-  isAvailable: "",
-  isAdvertised: "",
 });
 
 export const BASKET_MESSAGE = {

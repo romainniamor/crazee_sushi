@@ -45,10 +45,7 @@ const SelectInputStyled = styled.div`
   gap: ${theme.spacing.sm};
 
   select {
-    text-overflow: ellipsis;
     border: none;
-    background: transparent;
-    width: 100%;
     color: ${theme.colors.dark};
     &:focus {
       outline: none;
