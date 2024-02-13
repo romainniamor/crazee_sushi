@@ -4,9 +4,9 @@ import { theme } from "../../theme/index";
 export default function Logo({ className, onClick }) {
   return (
     <LogoStyled className={className}>
-      <h1>food</h1>
-      <img src={"/logo.png"} alt="Burger Logo" onClick={onClick} />
-      <h1>store</h1>
+      <h1>crazee</h1>
+      <img src={"/crazee-logo.png"} alt="Sushi Logo" onClick={onClick} />
+      <h1>sushi</h1>
     </LogoStyled>
   );
 }
@@ -20,7 +20,7 @@ const LogoStyled = styled.div`
     object-fit: contain;
     object-position: center;
     height: 60px;
-    width: 80px;
+    width: 60px;
   }
   h1 {
     color: ${theme.colors.primary};

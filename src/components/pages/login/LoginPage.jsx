@@ -27,7 +27,7 @@ const LoginPageStyled = styled.div`
   background-position: center;
   background-size: cover;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/background.jpg");
+    url("/crazee-bg.jpg");
 
   .logo-login-page {
     transform: scale(2.5);
