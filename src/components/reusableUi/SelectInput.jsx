@@ -47,6 +47,7 @@ const SelectInputStyled = styled.div`
   select {
     border: none;
     color: ${theme.colors.dark};
+    background: transparent;
     &:focus {
       outline: none;
     }

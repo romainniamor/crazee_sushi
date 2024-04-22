@@ -39,7 +39,7 @@ const ErrorPageStyled = styled.div`
   background-position: center;
   background-size: cover;
   background-image: linear-gradient(rgba(4, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/background.jpg");
+    url("/crazee-bg.jpg");
 
   h1 {
     font-size: ${theme.fonts.P6};
